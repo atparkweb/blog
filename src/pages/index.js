@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <p>Welcome Andy's site.</p>
+    <p>Andy Park is a web developer located in Tokyo, Japan.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     </div>
   </Layout>
