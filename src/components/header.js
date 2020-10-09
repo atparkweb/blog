@@ -1,6 +1,8 @@
 import PropTypes from "prop-types"
 import React from "react"
 
+import SocialNav from "./social_nav"
+
 const headerStyles = {
       marginBottom: `1.45rem`,
       backgroundColor: `#000000`,
@@ -17,6 +19,7 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
+      <SocialNav />
     </div>
   </header>
 )

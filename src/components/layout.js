@@ -10,7 +10,6 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-import IconLinkList from "./icon_link_list"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -36,9 +35,11 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer style={{
-          marginTop: `2rem`
+          marginTop: `2rem`,
+	  border: `1px none #ddd`,
+          borderTopStyle: `solid`,
+	  paddingTop: `1em`,
         }}>
-	  <IconLinkList />
           © {new Date().getFullYear()} <abbr title="Andrew">A.</abbr> Park
         </footer>
       </div>
