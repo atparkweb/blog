@@ -6,7 +6,7 @@ import SEO from "../components/seo";
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h2>Andy Park is a web developer located in Tokyo, Japan.</h2>
+    <h2 style={{ textAlign: `center`}}>Andy Park is a web developer located in Tokyo, Japan.</h2>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem`, minHeight: `250px` }}>
     </div>
   </Layout>

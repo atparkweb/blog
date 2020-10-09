@@ -38,9 +38,11 @@ const Layout = ({ children }) => {
           marginTop: `2rem`,
 	  border: `1px none #ddd`,
           borderTopStyle: `solid`,
-	  paddingTop: `1em`,
+    paddingTop: `1em`,
+          textAlign: `center`,
+          fontSize: `0.75rem`,
         }}>
-          © {new Date().getFullYear()} <abbr title="Andrew">A.</abbr> Park
+          © {new Date().getFullYear()} Andy Park
         </footer>
       </div>
     </>
