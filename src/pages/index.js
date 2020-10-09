@@ -7,7 +7,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h2>Andy Park is a web developer located in Tokyo, Japan.</h2>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem`, minHeight: `400px` }}>
+    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem`, minHeight: `250px` }}>
     </div>
   </Layout>
 )
