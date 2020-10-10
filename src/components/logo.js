@@ -9,7 +9,6 @@ const styles = css`
     height: 40px;
     font-size: 22px;
     font-weight: bold;
-    float: left;
     box-shadow: 4px 4px 1px rgba(0,0,0,0.2);
     transform: rotate(45deg);
     border-radius: 13%;
@@ -24,7 +23,7 @@ const styles = css`
 
 const Logo = (props) => {
     return (
-        <div className={styles.logo}>
+        <div className={styles.logo} {...props}>
             <div>AP</div>
         </div>
     );
