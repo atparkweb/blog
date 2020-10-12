@@ -516,6 +516,12 @@ li *:last-child {
 p *:last-child {
   margin-bottom: 0;
 }
+p a {
+  color: inherit;
+  opacity: 0.7;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
 li > p {
   margin-bottom: calc(1.45rem / 2);
 }

@@ -18,6 +18,7 @@ const Layout = ({ children }) => {
       site {
         siteMetadata {
           title
+          author
         }
       }
     }
@@ -42,7 +43,7 @@ const Layout = ({ children }) => {
           textAlign: `center`,
           fontSize: `0.75rem`,
         }}>
-          © {new Date().getFullYear()} Andy Park
+          © {new Date().getFullYear()} {data.site.siteMetadata?.author || 'All rights reserved'}
         </footer>
       </div>
     </>
