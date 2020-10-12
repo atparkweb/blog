@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Andy Park`,
     description: `Andy Park is a full-stack web developer with over 10 years of experience. He currently lives and works in Japan.`,
-    author: `@gatsbyjs`,
+    author: `Andy Park`,
   },
   plugins: [
     `gatsby-plugin-astroturf`,
