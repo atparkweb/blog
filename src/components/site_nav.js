@@ -10,6 +10,7 @@ const styles = css`
     text-transform: uppercase;
     text-decoration: none;
     font-family: sans-serif;
+    font-size: 0.75rem;
 }
 .active {
     border: 3px rgba(0,0,0,0.1);
