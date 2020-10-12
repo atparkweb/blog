@@ -601,3 +601,7 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.page-title {
+    text-align: center;
+}

@@ -23,7 +23,7 @@ const styles = css`
 const SiteNav = (props) => {
     return (
         <nav {...props}>
-            <Link className={styles.navLink} activeClassName={styles.active} to="/">Home</Link>
+            <Link className={styles.navLink} activeClassName={styles.active} to="/">Blog</Link>
             <Link className={styles.navLink} activeClassName={styles.active} to="/about/">About</Link>
         </nav>
     );

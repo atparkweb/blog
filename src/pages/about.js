@@ -7,7 +7,7 @@ import SEO from "../components/seo";
 const IndexPage = () => (
   <Layout>
     <SEO title="About" />
-    <h2 style={{ textAlign: `center`}}>About Me</h2>
+    <h2 className="page-title">About Me</h2>
     <div style={{ maxWidth: `800px`, marginBottom: `1.45rem`, minHeight: `250px`, display: `flex` }}>
       <div style={{ flex: `0 0 25%`, alignItems: `flex-start`, marginRight: `2rem` }}>
 	<ProfileImage />
