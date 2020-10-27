@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -14,6 +14,7 @@ export default function IndexPage({ data }) {
           <div key={node.id}>
             <h3>{node.frontmatter.title}{" "} <span>-- {node.frontmatter.date}</span></h3>
             <p>{node.excerpt}</p>
+	    <Link to={node.fields.slug}>Read More</Link>
           </div>
         ))}
       </div>
@@ -39,6 +40,9 @@ query {
             }
           }
         }
+	fields {
+	  slug
+	}
         excerpt
       }
     }
