@@ -11,7 +11,7 @@ export default function IndexPage({ data }) {
       <div style={{ maxWidth: `960px`, marginBottom: `1.45rem`, minHeight: `250px` }}>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id}>
+          <div class="blog-list-entry" key={node.id}>
             <h3>{node.frontmatter.title}{" "} <span>-- {node.frontmatter.date}</span></h3>
             <p>{node.excerpt}</p>
 	    <Link to={node.fields.slug}>Read More</Link>
@@ -24,7 +24,12 @@ export default function IndexPage({ data }) {
 
 export const query = graphql`
 query {
-  allMarkdownRemark {
+  allMarkdownRemark(
+    sort: {
+      fields: [frontmatter___date]
+      order: DESC
+    }
+  ) {
     totalCount
     edges {
       node {
