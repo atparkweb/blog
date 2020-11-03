@@ -5,7 +5,7 @@ featuredImage: ../images/keychron_k2.png
 ---
 
 Until about two weeks ago I have been working without a keyboard for about one
-year. Since then I've been using the Keychron K2 keyboard, which has been
+year. Since then I've been using the [Keychron K2 keyboard](https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard), which has been
 great.
 
 I decided on the Keychron K2, because of it's small size and reasonable price.
