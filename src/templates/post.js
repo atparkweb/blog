@@ -13,7 +13,7 @@ export default function Post({ data }) {
       <div>
         <h1>{post.frontmatter.title}</h1>
 	{featuredImgFluid ? (
-	  <div style={{width: `400px`, float: `right`, margin: `0 0 1em 1em`}}>
+	  <div style={{width: `300px`, float: `right`, margin: `0 0 1em 1em`}}>
 	    <Img fluid={featuredImgFluid} />
 	  </div>
 	) : ''}

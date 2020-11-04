@@ -1,31 +1,25 @@
 ---
 title: Beginning an Online Machine Learning Course
 date: 2020-11-03
+featuredImage: ../images/gradient_descent_graph.png 
 ---
 
-I've been interested in machine learning for quite sometime. I've read a few
-blog posts about <abbr>ML</abbr>, but I embarassed to say that I haven't been serious about
-studying it or applying it in my work. I decided to finally take the plunge and
-enroll in [Coursera's free machine learning course](https://www.coursera.org/learn/machine-learning?).
+I've been interested in machine learning (ML) for a while. I've read a few
+blog posts about <abbr title="machine learning">ML</abbr>, but I never considered
+studying it or applying it to my work until now.
+I finally decided to enroll in [Coursera's free machine learning course](https://www.coursera.org/learn/machine-learning?) last week.
 
-The first week covered the fundamentals of <abbr>ML</abbr> including
-linear regression and gradient descent.
+The first week covered the fundamentals of <abbr title="machine learning">ML</abbr>, including
+linear regression and gradient descent. It also included a review of linear algebra, specifically matrices and vectors.
 
-Linear regression is method of modeling a linear function to predict an output
-given one or more inputs.
-The concept of univariate (single input variable) linear regression was easy
-enough for me to understand.
+Linear regression is method of modeling a function to predict an output given one or more inputs.
+If you were to plot a set of inputs (x) and outputs (y) as points on an two-dimensional plane, the linear regression function would be the line that passes through, or closest to, most of the points. Once this function is determined, you can more accurately predict the result of any input.
 
-Gradient descent is an algorithm used for optimizing a linear
-regression. Basically it's a way of finding the linear function that can best
-predict an output given any input. The algorithm gradually converges on the
-function with the most accurate prediction results on an input parameter.
-The theory behind gradient descent involves derivatives, so I had to search 
-the corners of my brain where my old knowledge of calculus was hidden.
+Gradient descent is an algorithm used for finding the optimal linear
+regression function. The algorithm is used to find the function that outputs the minimal average difference between predicted results and actual results. To illustrate this concept, the course uses the image of a landscape with hills and valleys. The aim of the gradient descent algorithm is find the closest, lowest valley from a certain point. To do this you would look around and take a step in the direction that decreases your altitude the fastest. By following this process, you gradually would reach the valley closest to where you started.
+
+Linear regression and gradient descent apply to machine learning as a way for a computer to develop a optimal function given a hypothesis (starting function) and training set (data). Linear regression gives the computer a basis for analysis and performance, while gradient descent is used as the learning process from the training set.
 
 This week will introduce multivariate (more than one input parameter) linear
 regressions. This seems a bit more challenging than simple univariate linear
 regressions, but I'm looking forward to learning more, and getting into writing code.
-
-Learning something new is always a struggle at first, but as long time and
-effort are invested, it is a rewarding exercise. 
