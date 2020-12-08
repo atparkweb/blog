@@ -5,7 +5,6 @@ import { Link } from "gatsby";
 
 import Logo from "./logo";
 import SocialNav from "./social_nav";
-import SiteNav from "./site_nav";
 
 const styles = css`
 .header {
@@ -42,7 +41,6 @@ const Header = () => (
       <Link className={styles.logo} to="/">
         <Logo />
       </Link>
-      <SiteNav className={styles.siteNav} />
       <SocialNav className={styles.socialNav} />
     </div>
   </header>
