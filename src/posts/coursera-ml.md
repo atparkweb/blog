@@ -18,9 +18,10 @@ If you were to plot a set of inputs (x) and outputs (y) as points on a two-dimen
 Gradient descent is an algorithm used for finding the optimal linear
 regression function. The algorithm is used to find the function that outputs the
 minimal average difference between predicted results and actual results. To
-illustrate this concept, the course uses the concept of a landscape with hills
-and valleys. The aim of the gradient descent algorithm is to find the closest,
-lowest valley from a certain point. To do this you would look around and take a
+illustrate this concept, imagine a landscape with hills
+and valleys. The objective is to find the closest,
+lowest valley from the current position in the landscape. To reach this
+objective, look around and take a
 step in the direction that decreases your altitude the fastest. By following
 this process, you will eventually reach the valley closest to where you started.
 
