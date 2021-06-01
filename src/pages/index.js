@@ -15,7 +15,7 @@ const IndexPage = () => (
       <div style={{ flex: `0 0 75%`, alignItems: `flex-end` }}>
         <p>I was born in Saint Paul, Minnesota, USA, and now living in Tokyo, Japan.
         <br/>My interests include Music, Drawing, Photography, Sumo, and Sake.</p>
-        <p>I specialize in JavaScript programming, but I also have experience with other languages. I am currently building things with <a href="https://reactjs.org/" target="blank">React</a>, <a href="https://elixir-lang.org/" target="blank">Elixir</a>, and <a href="https://elm-lang.org/" target="blank">Elm</a>.</p>
+        <p>I specialize in JavaScript programming, but I also have experience with other languages. I am currently building things with <a href="https://reactjs.org/" target="blank">React</a> and <a href="https://elixir-lang.org/" target="blank">Elixir</a>, and learning <a href="https://rust-lang.org" target="blank">another programming language</a>.</p>
         <p>I am available to collaborate on web or mobile projects.<br />Please feel free to contact me.</p>
       </div>
     </div>
