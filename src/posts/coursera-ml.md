@@ -17,16 +17,15 @@ If you were to plot a set of inputs (x) and outputs (y) as points on a two-dimen
 
 Gradient descent is an algorithm used for finding the optimal linear
 regression function. The algorithm is used to find the function that outputs the
-minimal average difference between predicted results and actual results. To
-illustrate this concept, imagine a landscape with hills
-and valleys. The objective is to find the closest,
-lowest valley from the current position in the landscape. To reach this
-objective, look around and take a
-step in the direction that decreases your altitude the fastest. By following
-this process, you will eventually reach the valley closest to where you started.
+minimal average difference between predicted results and actual results.
+
+Imagine standing in a landscape with hills and valleys. Your objective is to find the closest,
+lowest valley from your current position in the landscape. To reach this objective, look around and take a
+step in the direction that decreases your altitude the most. By following
+this process with each step, you will eventually reach the lowest point closest to where you started.
 
 Linear regression and gradient descent apply to machine learning as a way for a computer to develop an optimal function given a hypothesis (starting function) and training set (data). Linear regression gives the computer a basis for analysis and performance, while gradient descent is used as the learning process.
 
-This week will introduce multivariate (more than one input parameter) linear
+This week will cover multivariate (more than one input parameter) linear
 regressions. This seems a bit more challenging than simple univariate linear
 regressions, but I'm looking forward to learning more, and getting into writing code.
