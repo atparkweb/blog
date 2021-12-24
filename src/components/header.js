@@ -17,7 +17,7 @@ const styles = css`
     flex: 0 0 10%;
     text-decoration: none;
   }
-  
+
   .nav-link {
     margin: 0 2rem 0 0;
     text-decoration: none;
@@ -47,7 +47,6 @@ const Header = () => (
       <Link className={styles.logo} to="/">
         <Logo />
       </Link>
-      <Link className={styles.navLink} to="/blog">Blog</Link>
       <SocialNav className={styles.socialNav} />
     </div>
   </header>
