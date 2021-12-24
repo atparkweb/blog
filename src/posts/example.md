@@ -1,3 +1,6 @@
-# First Post
+---
+title: Merry Christmas
+date: 2021-12-24
+---
 
-This is just an example post.
+Merry Christmas and Happy New Year.
