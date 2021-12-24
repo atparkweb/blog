@@ -1,6 +1,5 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
-import Img from "gatsby-image";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -13,9 +12,6 @@ export default function IndexPage({ data }) {
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div className="blog-list-entry" key={node.id}>
-            <div className="image">
-              <Img fluid={node.frontmatter.featuredImage.childImageSharp.fluid} /> 
-            </div>
             <div className="content">
               <header>
                 <h3>{node.frontmatter.title}{" "}</h3>
@@ -46,17 +42,10 @@ query {
         frontmatter {
           title
           date(formatString: "DD MMMM, YYYY")
-          featuredImage {
-            childImageSharp {
-              fluid(maxWidth: 800) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
         }
-	fields {
-	  slug
-	}
+        fields {
+          slug
+        }
         excerpt
       }
     }
